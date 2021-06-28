@@ -3,7 +3,7 @@ from flask.logging import create_logger
 import logging
 
 import pandas as pd
-import sklearn.external.joblib as extjoblib
+import sklearn.externals.joblib as extjoblib
 import joblib
 from sklearn.preprocessing import StandardScaler
 
