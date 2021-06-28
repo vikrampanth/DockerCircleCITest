@@ -43,5 +43,7 @@ jobs:
             . venv/bin/activate
             echo $PWD
             ls
+            cd demos/flask-sklearn
+            ls
             make lint           
 
