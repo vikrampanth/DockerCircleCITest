@@ -41,6 +41,6 @@ jobs:
           name: run lint
           command: |
             . venv/bin/activate
-            echo pwd
+            echo $PWD
             make lint           
 
